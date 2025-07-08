@@ -9,15 +9,13 @@ function App() {
   function increaseCount(){
     setCount(count + 1);
   }
-  return ( <div>
-    <div style={{display: "flex" }}>
-      <div style={{background: "red", boarderRadius: 0, width:20
-        , height: 25, paddingLeft: 10, paddingTop: 5}}>
-          {count}
+  return ( 
+  <div>
+      <div style={{background: "red", boarderRadius: 0, width:20, height: 25, paddingLeft: 10, paddingTop: 5}}>
+        {count}
       </div>
-    </div>
     <img style={{cursor: "pointer"}} src={reactLogo} alt="react" onClick={increaseCount}/>
-    </div>
+  </div>
   )
 }
 
