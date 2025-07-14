@@ -110,3 +110,104 @@
     margin-top: 4px;
   
   }
+
+.form-container {
+  max-width: 500px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #222;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 16px;
+  transition: border-color 0.2s;
+  background: #fafbfc;
+}
+
+.form-container input:focus,
+.form-container select:focus,
+.form-container textarea:focus {
+  border-color: #4a90e2;
+  outline: none;
+  background: #fff;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.form-container button:hover {
+  background: #357ab8;
+}
+
+.table-container {
+  max-width: 900px;
+  margin: 40px auto 0 auto;
+  background: #fff;
+  padding: 24px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-container h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #222;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.table-container table {
+  width: 90%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background: #fafbfc;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #ddd;
+  padding: 10px 8px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.table-container th {
+  background: #f0f4f8;
+  font-weight: 600;
+}
+
+.table-container tr:nth-child(even) {
+  background: #f9f9f9;
+}
